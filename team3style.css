@@ -1,6 +1,18 @@
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Archivo+Narrow">
+</head>
+
 body {
     background-color: #f7f4f3;
 }
 header {
-    background-color: bisque;
+    background-color:burlywood;
+}
+h1 {
+    font-family: julius_sans_one, sans-serif;
+    color: white
+}
+h1 {
+    font-family: archivo_narrow, sans-serif;
+    color:white
 }
