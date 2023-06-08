@@ -4,15 +4,19 @@
 
 body {
     background-color: #f7f4f3;
+    margin-right: 25%
+    margin-left: 25%
 }
 header {
     background-color:burlywood;
-}
+    }
 h1 {
     font-family: julius_sans_one, sans-serif;
-    color: white
+    color: white;
+    text-align: center;
 }
-h1 {
+h2 {
     font-family: archivo_narrow, sans-serif;
-    color:white
+    color:white;
+    text-align: center;
 }
