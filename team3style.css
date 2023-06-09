@@ -1,27 +1,30 @@
-<head>
+/* <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Archivo+Narrow">
-</head>
+</head> */
 
 body {
     background-color: #f7f4f3;
-    margin-right: 25%
-    margin-left: 25%
+    margin-right: 25%;
+    margin-left: 25%;
 }
+
 header {
-    background-color:burlywood;
-    }
+    background-color: burlywood;
+}
+
 h1 {
     font-family: julius_sans_one, sans-serif;
     color: black;
     text-align: center;
 }
+
 h2 {
     font-family: archivo_narrow, sans-serif;
-    color:white;
+    color: white;
     text-align: center;
 }
 
-.newsletter {
+.newsletter form {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -36,4 +39,32 @@ h2 {
 .subscribe {
     border-radius: 5rem;
     border: 0;
+}
+
+dialog::backdrop {
+    background-color: darkorange;
+    background-image: url('/pexels-andre-taissin-6616443.jpg');
+    background-size: cover;
+    filter: blur(0.2rem);
+}
+
+.popup-message[open]{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.popup-message {
+    font-family: julius_sans_one, sans-serif;
+    border-radius: 1.5rem;
+    border: 0;
+    background-color: #DCB98A;
+    opacity: 0.9;
+}
+
+.popup-message button {
+    border: 0;
+    background-color: #8d7452;
+    color: white;
 }
