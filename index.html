@@ -21,15 +21,19 @@
     background-repeat: no-repeat; 
     background-size: cover;">
 
-        <!-- This navigation bar is without boostrap, I assume it has to be responsive so probably it should be designed with flexbox-->
         <nav>
             <ul>
-                <li><img src="Images/logo.png" width=5% alt="company logo"></li>
+                <div>
+                <li><img src="Images/logo.png" alt="company logo"></li>
+                </div>
+
+                <div class="social-media">
                 <li><a href="About.html">About</a></li>
                 <li>|</li>
                 <li><a href="#" class="fa fa-facebook"></a></li>
                 <li>|</li>
                 <li><a href="#" class="fa fa-instagram"></a></li>
+                </div>
             </ul>
         </nav>
 
@@ -40,89 +44,64 @@
         </div>
 
     </header>
-
-    <!-- This navigation bar is designed with bootstrap, it looks nice but it's not fully responsive
-
-    <div class ="row">
-        <div class ="col">
-            <img src="Images/logo.png" width=15% ml-8 alt="company logo">
-        </div>
-        <div class = "col-6"></div>
-        <div class ="col">
-            <a href="./index.html">Home</a>
-        </div>
-        <div class="col">
-            <a href="#" class="fa fa-facebook"></a>
-        </div>
-        <div class="col"> 
-            <a href="#" class="fa fa-instagram"></a>
-        </div>
-        
-    </div>
-
-    -->
-
+    
     <div id="menu">
         <h2 id="menu-heading">Our Specialty Coffees</h2>
     </div>
-
+    
     <div class="container">
-
-        <div class="row gx-5">
-
-            <div class="col-md-4">
-                <figure>
-                    <img src="#espresso" alt="espresso-image">
-                    <figcaption>Strong and intense in flavor our specialty espresso. Make it double for bolder and more
-                        robust experience</figcaption>
-                </figure>
-            </div>
-
-
-            <div class="col-md-4">
-                <figure>
-                    <img src="#cappucino" alt="cappucino image">
-                    <figcaption>Perfect blend of rich espresso, velvety steamed milk and creamy milk foam</figcaption>
-                </figure>
-            </div>
-
-
-
-            <div class="col-md-4">
-                <figure>
-                    <img src="#americano" alt="americano image">
-                    <figcaption>Bold and invigorating espresso topped with hot water</figcaption>
-                    <figure>
-            </div>
-
-            <div class="row gx-5">
-
-                <div class="col-md-4">
-                    <figure>
-                        <img src="#latte" alt="latte-image">
-                        <figcaption>Rich flavors of espresso combined with creamy texture of steamed milk </figcaption>
-                    </figure>
-                </div>
-
-                <div class="col-md-4">
-                    <figure>
-                        <img src="#matcha" alt="matcha-image">
-                        <figcaption>Delightful fusion of traditional Japanese green tea and creamy steamed milk
-                        </figcaption>
-                    </figure>
-                </div>
-
-
-                <div class="col-md-4">
-                    <figure>
-                        <img src="#frappucino" alt="frappucino-image">
-                        <figcaption>Icy-cold goodness - combination of blended ice, flavored syrups, espresso, milk, and
-                            optional toppings like whipped cream and drizzles. Treat yourself!</figcaption>
-                    </figure>
-                </div>
-
-            </div>
+        
+    <div class="row">
+    
+        <div class="col-md-4">
+            <figure>
+                <img class="coffee-image" src="./Images/Untitled design.png" alt="espresso-image">
+                <figcaption>Strong and intense in flavor our specialty espresso. Make it double for bolder and more robust experience</figcaption>
+            </figure>
         </div>
+    
+        <div class="col-md-4">
+            <figure>
+                <img class="coffee-image" src="./Images/Untitled design (2).png" alt="cappucino image">
+                <figcaption>Perfect blend of rich espresso, velvety steamed milk and creamy milk foam</figcaption>
+            </figure>
+        </div>
+
+        <div class="col-md-4">
+            <figure>
+                <img class="coffee-image" src="./Images/Untitled design (8).png" alt="americano image">
+                <figcaption>Bold and invigorating espresso topped with hot water</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="row">
+        
+        <div class="col-md-4">
+            <figure>
+                <img class="coffee-image" src="./Images/Untitled design (1).png" alt="latte-image">
+                <figcaption>Rich flavors of espresso combined with creamy texture of steamed milk </figcaption>
+            </figure>
+        </div>
+    
+        <div class="col-md-4">
+            <figure>
+                <img class="coffee-image" src="./Images/Untitled design (3).png" alt="matcha-image">
+                <figcaption>Delightful fusion of traditional Japanese green tea and creamy steamed milk</figcaption>
+            </figure>
+        </div>
+    
+        
+        <div class="col-md-4">
+            <figure>
+                <img class="coffee-image" src="./Images/Untitled design (9).png" alt="frappucino-image">
+                <figcaption>Icy-cold goodness - combination of blended ice, flavored syrups, espresso, milk, and optional toppings like whipped cream and drizzles. Treat yourself!</figcaption>
+            </figure>
+        </div>
+        
+    </div>
+    </div>
+
 
         <div id="quotes">
             <!-- Here we can put quotes about coffees or customers' reviews and maybe if we got the time later we could make them change with JavaScript-->
