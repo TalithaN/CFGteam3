@@ -109,3 +109,8 @@ dialog::backdrop {
     background-color: #8d7452;
     color: white;
 }
+
+.google-map {
+    display: block;
+    margin: 30px auto;
+  }
