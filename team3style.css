@@ -1,26 +1,17 @@
-/* <head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Archivo+Narrow">
-</head> */
-
-body {
-    background-color: #f7f4f3;
-    margin-right: 25%;
-    margin-left: 25%;
+.header1 {
+    background-image: url('Images/pexels-chevanon-photography-324028.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
-
-header {
-    background-color: burlywood;
-    /*  display: flex;
-        flex-direction: column; */
-}
-
-/* 
 
 #logo {
-  max-width: 10%;
-  margin: 20px auto;
+  max-width: 8%;
 }
-
 
 nav ul {
   display: flex;
@@ -33,38 +24,88 @@ nav ul {
   display: flex;
   gap: 20px;
   align-items: center;
-  margin-right: 20px;
-  color: white; 
+  color: #FFEAB6; 
 }
 
 ul div li a {
-  color: white;
+  color: #FFEAB6;
   text-decoration: none;
 }
 
-*/
-
-h1 {
-    font-family: julius_sans_one, sans-serif;
-    color: black;
+.header1 h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #FFEAB6;
     text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 4px 4px #664418;
 }
 
-h2 {
-    font-family: archivo_narrow, sans-serif;
-    color: white;
+.header1 h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #B17A50;
     text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 4px 4px #664418;
 }
 
-/* 
+#menu-heading {
+    font-family: 'Julius Sans One', sans-serif;
+    color:#B17A50;
+    margin: 80px;
+    text-align: center;
+}
+.container {
+    display:flex;
+    column-gap: 30px;
+    display: flex;
+    justify-content:baseline;
+    align-items:center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+figure {
+        color:#664418;
+    text-align: center;
+    align-items: center;
+}
+
+figure img {
+    padding: 25px;
+ }
+
+figcaption {
+    font-family: 'Archivo Narrow', sans-serif;
+    color:#664418;
+}
 
 .coffee-image {
   border-radius: 50%;
   max-width: 50%;
+  align-self: center;
 }
 
-*/
+footer {
+    font-family: 'Archivo Narrow', sans-serif;
+    color:#FFEAB6;
+    background-color: #664418;
+    padding: 20px;
+    text-align: center;
+}
 
+footer hr{
+    color: #FFEAB6;
+    width;: 50%
+
+}
+
+/* newsletter CSS */
+.newsletter {
+    font-family: 'Julius Sans One', sans-serif;
+    color:#664418;
+    background-color: #DCB98A;
+    padding: 20px;
+}
 .newsletter form {
     display: flex;
     align-items: center;
@@ -84,7 +125,7 @@ h2 {
 
 dialog::backdrop {
     background-color: darkorange;
-    background-image: url('/pexels-andre-taissin-6616443.jpg');
+    background-image: url('images/pexels-andre-taissin-6616443.jpg');
     background-size: cover;
     filter: blur(0.2rem);
 }
@@ -109,7 +150,7 @@ dialog::backdrop {
     background-color: #8d7452;
     color: white;
 }
-
+/* maps CSS */
 .google-map {
     display: block;
     margin: 30px auto;
