@@ -190,6 +190,7 @@ dialog::backdrop {
 .google-map {
     display: block;
     margin: 30px auto;
+    
 }
 
 /* reviews CSS */
@@ -283,4 +284,32 @@ dialog::backdrop {
 
 }
 
-/* Image Hover CSS */
+/* About page CSS */
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+.information {
+display: flex;
+text-align: center;
+justify-content: center;
+flex-direction: row;
+margin: 2rem auto;
+}
+
+.baristas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;  
+    margin: 2rem auto;  
+}
+
+.barista-text {
+    text-align: center;
+    margin: 2rem auto;
+}
