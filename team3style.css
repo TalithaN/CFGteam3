@@ -1,5 +1,5 @@
 .header1 {
-    background-image: url('Images/pexels-chevanon-photography-324028.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.316), rgba(255, 255, 255, 0.316)), url('Images/pexels-chevanon-photography-324028.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,7 @@
 }
 
 .header2 {
-    background-image: url('Images/image2.png');
+    background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url('Images/image2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +48,7 @@ ul div li a {
     color: #FFEAB6;
     text-align: center;
     font-size: 4em;
-    text-shadow: 2px 4px 4px #664418;
+    text-shadow: 1px 2.5px 2.5px #664418;
 }
 
 .header2 h1 {
@@ -56,7 +56,7 @@ ul div li a {
     color: #FFEAB6;
     text-align: center;
     font-size: 4em;
-    text-shadow: 2px 4px 4px #664418;
+    text-shadow: 1px 2.5px 2.5px #664418;
 }
 
 .header1 h2 {
@@ -64,7 +64,7 @@ ul div li a {
     color: #B17A50;
     text-align: center;
     font-size: 2em;
-    text-shadow: 2px 4px 4px #664418;
+    text-shadow: 1px 2.5px 2.5px #664418;
 }
 
 #menu-heading {
@@ -133,7 +133,7 @@ footer hr {
 
 /* newsletter CSS */
 .newsletter {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
     color: #664418;
     background-color: #DCB98A;
     padding: 20px;
@@ -149,11 +149,13 @@ footer hr {
 
 .newstext {
     margin: 0;
+    font-size: 1.4rem;
 }
 
 .subscribe {
     border-radius: 5rem;
     border: 0;
+    color: #664418;
 }
 
 dialog::backdrop {
@@ -189,3 +191,96 @@ dialog::backdrop {
     display: block;
     margin: 30px auto;
 }
+
+/* reviews CSS */
+
+.container-testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    row-gap: 30px;
+    overflow: hidden;
+}
+
+.testimonial .image {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.slide p {
+    text-align: center;
+    padding: 0 160px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #664418;
+}
+
+.slide .quote-icon {
+    font-size: 30px;
+    color: #B17A50;
+}
+
+.slide .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details .name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #664418;
+}
+
+.details .job {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #664418;
+}
+
+.reviews {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #B17A50;
+    margin: 50px;
+    text-align: center;
+}
+
+/*swiper button css */
+.nav-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    background-color: white;
+
+}
+
+.nav-btn::after, .nav-btn::before {
+  font-size: 20px;
+  color: #B17A50;
+}
+
+.swiper-pagination-bullet {
+    background-color: #B17A50;
+
+}
+
+/* Image Hover CSS */

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
     <link rel="stylesheet" href="./team3style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +16,11 @@
     <title>Four beans coffee</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Swiper JS-->
+    <script src="./swiper-bundle.min.js" defer></script>
+
     <script src="./newsletter.js" defer></script>
 </head>
 
@@ -53,7 +60,8 @@
 
             <div class="col-md-4 coffe-container">
                 <figure>
-                    <img class="coffee-image" src="./Images/Untitled design.png" alt="espresso-image">
+                <img class="coffee-image" src="./Images/Untitled design.png" alt="espresso-image">
+                    <h3 class="card-text">Espresso</h3>
                     <figcaption>Strong and intense in flavor our specialty espresso. Make it double for bolder and more
                         robust experience</figcaption>
                 </figure>
@@ -61,7 +69,8 @@
 
             <div class="col-md-4 coffe-container">
                 <figure>
-                    <img class="coffee-image" src="./Images/Untitled design (2).png" alt="cappucino image">
+                  <img class="coffee-image" src="./Images/Untitled design (2).png" alt="cappucino image">
+                    <h3 class="card-text">Cappuccino</h3>
                     <figcaption>Perfect blend of rich espresso, velvety steamed milk and creamy milk foam</figcaption>
                 </figure>
             </div>
@@ -69,6 +78,7 @@
             <div class="col-md-4 coffe-container">
                 <figure>
                     <img class="coffee-image" src="./Images/Untitled design (8).png" alt="americano image">
+                    <h3 class="card-text">Americano</h3>
                     <figcaption>Bold and invigorating espresso topped with hot water</figcaption>
                 </figure>
             </div>
@@ -76,7 +86,8 @@
 
             <div class="col-md-4 coffe-container">
                 <figure>
-                    <img class="coffee-image" src="./Images/Untitled design (1).png" alt="latte-image">
+                  <img class="coffee-image" src="./Images/Untitled design (1).png" alt="latte-image">
+                    <h3 class="card-text">Latte</h3>
                     <figcaption>Rich flavors of espresso combined with creamy texture of steamed milk </figcaption>
                 </figure>
             </div>
@@ -84,13 +95,15 @@
             <div class="col-md-4 coffe-container">
                 <figure>
                     <img class="coffee-image" src="./Images/Untitled design (3).png" alt="matcha-image">
+                    <h3 class="card-text">Matcha</h3>
                     <figcaption>Delightful fusion of traditional Japanese green tea and creamy steamed milk</figcaption>
                 </figure>
             </div>
 
             <div class="col-md-4 coffe-container">
                 <figure>
-                    <img class="coffee-image" src="./Images/Untitled design (9).png" alt="frappucino-image">
+                   <img class="coffee-image" src="./Images/Untitled design (9).png" alt="frappucino-image">
+                    <h3 class="card-text">Frappuccino</h3>
                     <figcaption>Icy-cold goodness - combination of blended ice, flavored syrups, espresso, milk, and
                         optional toppings like whipped cream and drizzles. Treat yourself!</figcaption>
                 </figure>
@@ -98,10 +111,53 @@
         </div>
     </div>
 
+    <h3 class="reviews">What our customer think about our coffee</h3>
+    <section class="container-testimonial">
+        <div class="testimonial mySwiper">
+            <div class="testi-content swiper-wrapper">
 
-    <div id="quotes">
-        <!-- Here we can put quotes about coffees or customers' reviews and maybe if we got the time later we could make them change with JavaScript-->
-    </div>
+                <div class="slide swiper-slide">
+                    <p>Great coffee, wonderful atmosphere, fantastic baristas. They’ve got more than your typical
+                        selection of coffee drinks, including matcha latte, and Frappuccino. It’s spacious and quiet
+                        inside making it a great place to hang out.</p>
+
+                    <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                    <div class="details">
+                        <span class="name">Carlo</span>
+                        <span class="job">Teacher</span>
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <p>This coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast
+                        wi-fi connection. It is simply one of the best and my favorites coffee shop in town. Overall, it’s a good shop for
+                        studying and relaxing. Highly recommended!</p>
+                    <i class="bx bxs-quote-alt-left quote-icon"></i>
+                    <div class="details">
+                        <span class="name">Patricia</span>
+                        <span class="job">Student</span>
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <p>Great coffee, good people, good vibes. They allows dogs outside on the patio and service dogs
+                        inside. It’s a good place to go inside and get a little work done on the laptop.</p>
+                    <i class="bx bxs-quote-alt-left quote-icon"></i>
+                    <div class="details">
+                        <span class="name">Michelle</span>
+                        <span class="job">Web Developer</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
 
     <section class="newsletter">
         <form>
