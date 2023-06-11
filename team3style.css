@@ -1,7 +1,7 @@
 .header1 {
     background-image: url('Images/pexels-chevanon-photography-324028.jpg');
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
     padding-right: 20px;
@@ -12,34 +12,35 @@
 .header2 {
     background-image: url('Images/image2.png');
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
 }
+
 #logo {
-  max-width: 8%;
+    max-width: 8%;
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
 }
 
 .social-media {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  color: #FFEAB6; 
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #FFEAB6;
 }
 
 ul div li a {
-  color: #FFEAB6;
-  text-decoration: none;
+    color: #FFEAB6;
+    text-decoration: none;
 }
 
 .header1 h1 {
@@ -57,6 +58,7 @@ ul div li a {
     font-size: 4em;
     text-shadow: 2px 4px 4px #664418;
 }
+
 .header1 h2 {
     font-family: 'Archivo Narrow', sans-serif;
     color: #B17A50;
@@ -67,39 +69,34 @@ ul div li a {
 
 #menu-heading {
     font-family: 'Julius Sans One', sans-serif;
-    color:#B17A50;
-    margin: 80px;
+    color: #B17A50;
+    margin: 50px;
     text-align: center;
 }
+
 .container {
-    display:flex;
-    column-gap: 30px;
     display: flex;
-    justify-content:baseline;
-    align-items:center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    justify-content: baseline;
+    align-items: start;
+    margin: 4rem auto;
 }
 
 figure {
-        color:#664418;
+    color: #664418;
     text-align: center;
     align-items: center;
 }
 
-figure img {
-    padding: 25px;
- }
-
 figcaption {
     font-family: 'Archivo Narrow', sans-serif;
-    color:#664418;
+    color: #664418;
+    margin-top: 2rem;
 }
 
 .coffee-image {
-  border-radius: 50%;
-  max-width: 50%;
-  align-self: center;
+    border-radius: 50%;
+    align-self: center;
+    width: 50%;
 }
 
 h1 {
@@ -114,7 +111,7 @@ h2 {
 
 p {
     font-family: 'Archivo Narrow', sans-serif;
-    color:#664418; 
+    color: #664418;
 }
 
 footer {
@@ -125,10 +122,10 @@ footer {
 
 footer p {
     font-family: 'Archivo Narrow', sans-serif;
-    color:#FFEAB6;
+    color: #FFEAB6;
 }
 
-footer hr{
+footer hr {
     color: #FFEAB6;
     width: 50%;
     margin: auto;
@@ -137,10 +134,11 @@ footer hr{
 /* newsletter CSS */
 .newsletter {
     font-family: 'Julius Sans One', sans-serif;
-    color:#664418;
+    color: #664418;
     background-color: #DCB98A;
     padding: 20px;
 }
+
 .newsletter form {
     display: flex;
     align-items: center;
@@ -165,7 +163,7 @@ dialog::backdrop {
     filter: blur(0.2rem);
 }
 
-.popup-message[open]{
+.popup-message[open] {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -185,8 +183,9 @@ dialog::backdrop {
     background-color: #8d7452;
     color: white;
 }
+
 /* maps CSS */
 .google-map {
     display: block;
     margin: 30px auto;
-  }
+}
