@@ -9,6 +9,16 @@
     padding-top: 20px;
 }
 
+.header2 {
+    background-image: url('Images/image2.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
 #logo {
   max-width: 8%;
 }
@@ -40,6 +50,13 @@ ul div li a {
     text-shadow: 2px 4px 4px #664418;
 }
 
+.header2 h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #FFEAB6;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 4px 4px #664418;
+}
 .header1 h2 {
     font-family: 'Archivo Narrow', sans-serif;
     color: #B17A50;
@@ -85,18 +102,36 @@ figcaption {
   align-self: center;
 }
 
-footer {
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #B17A50;
+}
+
+h2 {
     font-family: 'Archivo Narrow', sans-serif;
-    color:#FFEAB6;
+    color: #B17A50;
+}
+
+p {
+    font-family: 'Archivo Narrow', sans-serif;
+    color:#664418; 
+}
+
+footer {
     background-color: #664418;
     padding: 20px;
     text-align: center;
 }
 
+footer p {
+    font-family: 'Archivo Narrow', sans-serif;
+    color:#FFEAB6;
+}
+
 footer hr{
     color: #FFEAB6;
-    width;: 50%
-
+    width: 50%;
+    margin: auto;
 }
 
 /* newsletter CSS */
