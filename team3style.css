@@ -318,17 +318,16 @@ dialog::backdrop {
 }
 
 .information {
-width:100%;
-background-color: rgb(255, 250, 244);
-display: flex;
-text-align: center;
-justify-content: center;
-flex-direction: row;
-margin: 4rem auto;
-padding-left:20%;
-padding-right: 20%;
-padding-top: 5%;
-padding-bottom: 5%;
+    background-color: rgb(255, 250, 244);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 4rem auto;
+    padding-left:20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .baristas {
